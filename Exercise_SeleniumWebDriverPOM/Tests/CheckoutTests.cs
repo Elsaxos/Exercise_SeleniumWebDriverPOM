@@ -13,7 +13,7 @@
         [Test]
         public void TestCheckoutPageLoaded()
         {
-            Assert.True(checkoutPage.IsPageLoaded(), "Checkout page is not loaded");
+            Assert.True(checkoutPage.IsPageLoaded(), "Checkout page is not load");
         }
         [Test]
         public void TestContinueToNextStep()
